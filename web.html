@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color:indigo;
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color:indigo;
+
+}
+
+/* Style the topnav links */
+.topnav a{
+    float:left;
+    display: block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color:white;
+    color: #4169E1;;
+}
+/*properties for image*/
+.conten{
+background-image: url("lab.png");
+  width: 800px;
+  height: 250px;
+  margin-top: 35px;
+  margin-left: 280px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+.row h2{
+  text-align: center;
+
+}
+.row p{
+text-align: center;
+}
+.contact{
+  background-color: lightblue;
+}
+.button {
+    background-color:lightblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:2px 4px;
+    cursor: pointer;
+    margin-left: 120px;
+
+}
+</style>
+</head>
+<body>
+<!--icon-->
+<div class="header w3-indigo">
+  <i class="fa fa-cog" style="font-size:24px"></i>
+  <h1>Undeviating</h1>
+</div>
+<!--navbar-->
+
+<div class="topnav w3-indigo">
+  <a href="#">HOMEPAGE</a>
+  <a href="#">OUR CLIENTS</a>
+  <a href="#">ABOUT US</a>
+    <a href="#">CAREERS</a>
+      <a href="#">CONTACT US</a></div>
+
+<!--for image"-->
+
+<div class="conten">
+</div>
+<br>
+<!--coloumns --->
+<div>
+  <h2 style="text-align:center">WELCOME TO OUR WEBSITE</h2>
+<p style="text-align:center">  <b>Thank you</b> for joining our site we hope to benefit and enjoy the development of your skills.In this site you will learn the development of sites and mobile applications,<a href="https://www.youtube.com/channel/UC7OGxluGpaD5NHMNoKj33pw" >comprehensive courses depend on the practical application</a> starts with you from scratch and take you step by step to professionalism</p>
+
+</div>
+<br><br>
+<hr>
+<br>
+<div class="row">
+  <div class="column">
+    <h2>Html5</h2>
+    <p>HTML is the standard markup language for creating Web pages.
+
+HTML stands for Hyper Text Markup Language
+HTML describes the structure of Web pages using markup
+HTML elements are the building blocks of HTML pages
+HTML elements are represented by tags
+</p>
+<br><br>
+  <a href="https://youtu.be/OU0CBOrPZss">
+        <input type="button" class="button" value="Click here"></a>
+  </div>
+  <div class="column">
+    <h2>Css</h2>
+    <p>CSS stands for Cascading Style Sheets
+CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+CSS saves a lot of work. It can control the layout of multiple web pages all at once
+External stylesheets are stored in CSS files
+</p>
+<br><br>
+    <input type="button" class="button" value="Click here"></a>
+  </div>
+  <div class="column">
+    <h2>Bootsrtap</h2>
+
+
+      <p>Bootstrap is a free front-end framework for faster and easier web development
+Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins
+Bootstrap also gives you the ability to easily create responsive designs</p>
+    <a href="https://youtu.be/nEq8prQVtz0">
+        <input type="button" class="button" value="Click here"></a>
+  </div>
+</div>
+<br>
+<hr>
+<div class="row">
+  <div class="column">
+    <h2>Angular6</h2>
+
+    <p>Angular 6 is a JavaScript framework for building web applications and apps in JavaScript, html, and TypeScript, which is a superset of JavaScript. Angular provides built-in features for animation, http service, and materials which in turn has features such as auto-complete, navigation, toolbar, menus, etc.</p>
+
+      <input type="button" class="button" value="Click here"></a>
+  </div>
+  <div class="column">
+    <h2>Ionic3</h2>
+    <p>an open source development package to develop hybrid applications for smart phone operating systems. Ionic is built primarily on Angular GSM and Cordova. Onec offers many tools to develop hybrid applications for smartphones by using Web technologies such as HTML5, CSS, and SASS.
+
+
+    </p>
+
+      <input type="button" class="button" value="Click here"></a>
+  </div>
+  <div class="column">
+    <h2>SQl</h2>
+    <p>SQL stands for Structured Query Language
+SQL lets you access and manipulate databases
+SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987
+</p>
+<br>
+
+      <input type="button" class="button" value="Click here"></a>
+  </div>
+</div>
+<div class="contact">
+  <br>
+  <br>
+<div class="w3-row w3-large w3-center" style="margin:32px 0">
+    <div class="w3-third"><i class="fa fa-map-marker w3-text-black"></i><br> 423 Some adr, Iraq,Baghdad </div>
+    <div class="w3-third"><i class="fa fa-phone w3-text-black"></i><br> Phone: +00 151515</div>
+    <div class="w3-third"><i class="fa fa-envelope w3-text-black"></i><br> Email: mail@mail.com</div>
+  </div>
+  <br>
+  <br>
+
+<!-- Footer -->
+<footer class="w3-padding-32 w3-indigo w3-center w3-margin-top">
+  <h5>Find Us On</h5>
+  <div class="w3-xlarge w3-padding-16">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div></div>
+</footer>
+
+
+
+
+</body>
+</html>
